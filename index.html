@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trà Đào Cam Sả</title>
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="drag-container">
+        <div id="spin-container">
+          <img src="./img/z5287718622872_162ccb9d019cb91b955122f9fd53ac54.jpg" alt="">
+          <img src="./img/z5287718634439_64367611770b09355d43196013df4a7b.jpg" alt="">
+          <img src="./img/z5287729564169_5dd2db456e7cdf9cef01cba361ce400a.jpg" alt="">
+          <img src="./img/z5287740834971_4001d424cd1a61fa1d18c16b01574124.jpg" alt="">
+          <img src="./img/z5287777113208_78d57c580863b5c627274efc988fa7fc.jpg" alt="">
+          <img src="./img/z5287802860653_75f6d852a247102cf568051b9eb2c5b7.jpg" alt="">
+          <img src="./img/z5287803198613_256dcbc0b2a9fad3d4dc16d97e0b3f08.jpg" alt="">
+          <img src="./img/z5287808625324_2c6b422558863ae04ad909ad4bb9c3a0.jpg" alt="">
+          
+            <p>Yêu Em</p>
+          
+        
+        </div> 
+        <div class="right">
+          <p>Press Here</p>
+          <img src="./img/play.png" id="icon">
+        </div>
+        <div id="ground"></div>
+      </div>
+      
+      <div id="music-container"></div>
+      <div id="canva">
+      <canvas id="canvas"></canvas>
+    </div>
+    <audio controls autoplay id="mySong">
+      <source src="bahat.mp3.mp3" type="audio/mp3"></audio>
+    </audio>
+    <script
+      var mySong = documentgetElementByIdmySong
+      var icon = documentgetElementByIdmySong
+
+      icon onlcick = function
+            mySongplay();
+          if(mySong paused){
+            mySong play();
+            icon src = "./img/pause.png"
+          }else{
+            mySong pause();
+            icon src ="img/play.png"
+          }
+      ></script>
+           
+    <script src="main.js"></script>
+</body>
+</html>
